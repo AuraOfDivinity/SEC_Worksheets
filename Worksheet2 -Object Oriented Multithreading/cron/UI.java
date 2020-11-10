@@ -57,6 +57,7 @@ public class UI
                 
                 // Add new job to the scheduler. (NOTE: you'll need to change the code here.)
                 Job job = new Job(command, delay, logger);
+                scheduler.addJob(job);
                 // ...
             }
         }
